@@ -75,10 +75,7 @@ All’interno della breadboard invece i collegamenti sono costituiti da 5 pin ve
    
 ### Web Editor
 
-
-
 ```json
-{
 void setup() {
   // put your setup code here, to run once:
 
@@ -87,6 +84,5 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 
-}
 }
 ```
