@@ -32,8 +32,13 @@ La breadboard è una basetta con dei fori dove è possibile inserire dei fili el
   <img height="300" src="https://solarbotics.com/wp-content/uploads/21020-dscn0140-2.jpg">
 </p>
 
-<img src="https://solarbotics.com/wp-content/uploads/21020-dscn0140-2.jpg" height="300" align="center">
-
 I pin laterali (rossi e blu) sono collegati insieme per tutta la linea orizzontale. Questo vuol dire che inserendo un cavo con 5V (5 Volt) in qualsiasi punto della linea rossa avremo 5v in tutti gli altri punti della riga rossa. Questo serve per poter alimentare più componenti simultaneamente. Stessa cosa con la linea blu. Qui dobbiamo collegare il segnale di Arduino GND (con filo nero), in questo modo su tutta la linea blu abbiamo un segnale di massa. A cosa servono 5v e GND? Per semplificare possiamo dire che il segnale 5V invia una corrente nel circuito (che serve per alimentare i vari componenti) e il flusso di corrente termina nel pin GND. In questo modo abbiamo chiuso il circuito e la corrente è in grado di passare attraverso i vari componenti.
 
 All’interno della breadboard invece i collegamenti sono costituiti da 5 pin verticali. Se inseriamo un segnale di 5V in uno qualsiasi dei 5 pin nei 4 rimanenti avremo un segnale di 5V. In mezzo alla breadboard c’è una linea di separazione. Le due metà della basetta non sono collegate, per far passare la corrente da una metà all’altra dobbiamo realizzare dei ponti. 
+
+## Arduino
+
+Arduino può essere alimentato inserendo un cavo USB nell’apposito connettore. Lo stesso cavo viene utilizzato per collegare la scheda al computer e permetter la programmazione della scheda stessa. Una volta uplodato il codice che andremo a programmare, Arduino lo memorizzerà nell’apposito microchip finchè non sarà sostituito con un nuovo codice. Questo vuol dire che Arduino è in grado di lavorare anche se separato da un computer. In questo caso dobbiamo alimentarlo con delle batterie (da 9 V oppure batterie stilo), pannelli solari, alimentatori 9V-12V, ecc. 
+
+
+
