@@ -20,8 +20,10 @@ ___
 
    ## 1.5. Upload Sketch su Arduino
    
-## 2. Arduino & Max MSP
+# 2. Arduino & Max MSP
 
+   ## 2.1. Max to Arduino
+   ## 2.2. Arduino to Max
 ___
 
 # 1. Iniziamo!
@@ -181,7 +183,7 @@ ___
 
 MaxMsp e Arduino si scambiano dati tramite la porta USB.
 
-### Max to Arduino
+### 2.1. Max to Arduino
 
 ````
 int ledPin = 9;   
@@ -205,7 +207,7 @@ void loop() {
 
 ___
 
-### Arduino to Max
+### 2.2. Arduino to Max
 
 ````
 void setup() {
