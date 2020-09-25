@@ -46,3 +46,19 @@ Arduino può essere alimentato inserendo un cavo USB nell’apposito connettore.
 
 I pin posizionati in basso a sinistra sono chiamati POWER perchè permettono di alimentare un circuito esterno tramite Arduino. Inserendo un cavetto elettrico nel pin 5V e collagando questo alla breadboard, avremo un segnale di 5V per accendere i nostri componenti elettronici come sensori, led, motorini, etc… I due pin GND servono per chiudere il circuito che stiamo realizzando. Inserendo un cavetto nel pin GND e collegando l’altra estremità alla breadboard siamo pronti per realizzare i nostri circuiti). Per maggiori informazioni clicca qui per vedere il tutorial precedente.
 
+### Analog IN
+
+<img src="http://www.marcopucci.it/wp-content/uploads/2013/07/tutorial_3_arduino_c.jpg">
+
+I pin analogici sono posizionati in basso a destra e sono composti da 6 ingressi: A0 – A5.
+I pin analogici sono solamente di ingresso dati (INPUT) e vengono utilizzati per leggere i dati provenienti da sensori. In questo modo Arduino è in grado di “leggere” quello che succede nel mondo reale e trasformarlo, grazie ai sensori, in numeri che poi andremo ad analizzare.
+La particolarità del dato analogico è che può comprendere una serie infinita di numeri, ad esempio un sensore di prossimità rilascia un numero che va da 0 a 900 a seconda di quanto un oggetto è vicino o lontano. Più avanti, utilizzando dei sensori analogici, spiegherò meglio questo concetto di flusso infinito di numeri.
+
+### Digital
+
+<img src="http://www.marcopucci.it/wp-content/uploads/2013/07/tutorial_3_arduino_d-300x59.jpg">
+
+I pin digitali sono 14 (0 – 13) e sono posti nella parte in alto della scheda.
+Questi pin al contrario di quelli analogici restituiscono un valore che è uguale
+a 1 o a 0. I pin digitali possono essere sia di lettura (INPUT) che di scrittura (OUTPUT). Questo vuol dire che se inseriamo un sensore digitale in un determinato pin possiamo vedere se questo è attivo o spento, oppure in uscita possiamo fare accendere una luce o spegnerla.
+N.B: alcuni pin digitali, il 3, 5, 6, 9 ,10 e 11 sono chiamati pin PWM. I pin PWM possono essere sia digitali che analogici e possono essere sia di input che di output. Per il momento non consideriamo questi pin, verranno approfonditi più avanti.
