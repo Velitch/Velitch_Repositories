@@ -40,5 +40,9 @@ All’interno della breadboard invece i collegamenti sono costituiti da 5 pin ve
 
 Arduino può essere alimentato inserendo un cavo USB nell’apposito connettore. Lo stesso cavo viene utilizzato per collegare la scheda al computer e permetter la programmazione della scheda stessa. Una volta uplodato il codice che andremo a programmare, Arduino lo memorizzerà nell’apposito microchip finchè non sarà sostituito con un nuovo codice. Questo vuol dire che Arduino è in grado di lavorare anche se separato da un computer. In questo caso dobbiamo alimentarlo con delle batterie (da 9 V oppure batterie stilo), pannelli solari, alimentatori 9V-12V, ecc. 
 
+### Pin Power
 
+<img src="http://www.marcopucci.it/wp-content/uploads/2013/07/tutorial_3_arduino_b.jpg">
+
+I pin posizionati in basso a sinistra sono chiamati POWER perchè permettono di alimentare un circuito esterno tramite Arduino. Inserendo un cavetto elettrico nel pin 5V e collagando questo alla breadboard, avremo un segnale di 5V per accendere i nostri componenti elettronici come sensori, led, motorini, etc… I due pin GND servono per chiudere il circuito che stiamo realizzando. Inserendo un cavetto nel pin GND e collegando l’altra estremità alla breadboard siamo pronti per realizzare i nostri circuiti). Per maggiori informazioni clicca qui per vedere il tutorial precedente.
 
