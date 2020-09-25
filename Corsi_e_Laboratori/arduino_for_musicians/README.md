@@ -71,3 +71,16 @@ All’interno della breadboard invece i collegamenti sono costituiti da 5 pin ve
 1. Crea un account gratuito sul sito ufficiale di [Arduino](https://login.arduino.cc/login)
 2. Scarica il software [Arduino IDE](https://www.arduino.cc/en/Main/Software)
    - oppure usa il [web editor](https://create.arduino.cc/editor)
+   
+   
+### Web Editor
+
+void setup() {
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
