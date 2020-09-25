@@ -203,7 +203,7 @@ void loop() {
 ````
 **N.B**: Vi ricordo che il comando ``analogWrite`` è possibile effettuarlo solamente nei pin 3, 5, 6, 9, 10 e 11 di Arduino (pin PWM)
 
-<img src="https://github.com/Velitch/Velitch_Repositories/blob/master/Corsi_e_Laboratori/arduino_for_musicians/Arduino_%26_MaxMSP/maxtoarduino.jpg">
+<img src="https://github.com/Velitch/Velitch_Repositories/blob/master/Corsi_e_Laboratori/arduino_for_musicians/Arduino_%26_MaxMSP/MaxMsp_invia_dati_ad_Arduino/maxtoarduino.jpg">
 
 ___
 
@@ -223,10 +223,5 @@ void loop() {
 }
 
 ````
-![Alt text](/arduinotomax.jpg)
 
-<img src="https://github.com/Velitch/Velitch_Repositories/blob/master/Corsi_e_Laboratori/arduino_for_musicians/Arduino_%26_MaxMSP/arduinotomax.jpg">
-
-![Alt text](arduinotomax.jpg)
-
-<img src="arduinotomax.jpg">
+<img src="https://github.com/Velitch/Velitch_Repositories/blob/master/Corsi_e_Laboratori/arduino_for_musicians/Arduino_%26_MaxMSP/Arduino_invia_dato_a_MaxMSP/arduinotomax.jpg">
