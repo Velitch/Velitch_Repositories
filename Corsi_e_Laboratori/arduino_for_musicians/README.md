@@ -8,15 +8,23 @@ ___
 
 ## Indice
 
-1. Elettronica
-2. Arduino
-3. Breadbord
-4. Iniziamo!
-5. Arduino IDE
-6. Upload Sketch su Arduino
+1. Iniziamo!
+1.1. Elettronica
+1.2. Arduino
+1.3. Breadbord
+1.4. Arduino IDE
+1.5. Upload Sketch su Arduino
 ___
 
-## Elettronica
+## Iniziamo!
+
+1. Crea un account gratuito sul sito ufficiale di [Arduino](https://login.arduino.cc/login)
+2. Scarica il software [Arduino IDE](https://www.arduino.cc/en/Main/Software)
+   - oppure usa il [web editor](https://create.arduino.cc/editor)
+   
+___
+
+## 1.1 Elettronica
 
 **Vcc**: con il termine Vcc si intende l’alimentazione positiva collegata di norma tramite il filo rosso.
 
@@ -32,7 +40,7 @@ ___
 
 ___
 
-## Arduino
+## 1.2 Arduino
 
 Arduino può essere alimentato inserendo un cavo USB nell’apposito connettore. Lo stesso cavo viene utilizzato per collegare la scheda al computer e permetter la programmazione della scheda stessa. Una volta uplodato il codice che andremo a programmare, Arduino lo memorizzerà nell’apposito microchip finchè non sarà sostituito con un nuovo codice. Questo vuol dire che Arduino è in grado di lavorare anche se separato da un computer. In questo caso dobbiamo alimentarlo con delle batterie (da 9 V oppure batterie stilo), pannelli solari, alimentatori 9V-12V, ecc. 
 
@@ -59,7 +67,7 @@ a 1 o a 0. I pin digitali possono essere sia di lettura (INPUT) che di scrittura
 
 ___
 
-## Breadbord
+## 1.3 Breadbord
 
 La breadboard è una basetta con dei fori dove è possibile inserire dei fili elettrici rigidi (in vendita in tutti i negozi di elettronica). In questo modo è possibile evitare saldature tra i vari componenti che formeranno il nostro circuito. Una volta che il nostro circuito è stato testato con Arduino possiamo saldare e costruire un vero circuito con le basette millefori o qualsiasi altro supporto.
 
@@ -73,15 +81,7 @@ All’interno della breadboard invece i collegamenti sono costituiti da 5 pin ve
 
 ___
 
-## Iniziamo!
-
-1. Crea un account gratuito sul sito ufficiale di [Arduino](https://login.arduino.cc/login)
-2. Scarica il software [Arduino IDE](https://www.arduino.cc/en/Main/Software)
-   - oppure usa il [web editor](https://create.arduino.cc/editor)
-   
-___
-
-## Arduino IDE
+## 1.4 Arduino IDE
 
 ### Dichiarazione delle variabili e dei pin utilizzati
 
@@ -149,7 +149,7 @@ Con ``digitalWrite(ledpin, LOW);`` e ``delay(1000);`` – il Led riceverà un se
 
 ___
 
-## Upload Sketch su Arduino
+## 1.5 Upload Sketch su Arduino
 
 - Per testare se lo sketch è stato scritto correttamente clicchiamo sull’icona in alto a forma di “V”. Se tutto è andato bene, sotto apparirà la scritta *Done Compling*.
  
