@@ -181,6 +181,8 @@ ___
 
 MaxMsp e Arduino si scambiano dati tramite la porta USB.
 
+### Max to Arduino
+
 ````
 int ledPin = 9;   
 void setup()
@@ -200,3 +202,9 @@ void loop() {
 **N.B**: Vi ricordo che il comando ``analogWrite`` è possibile effettuarlo solamente nei pin 3, 5, 6, 9, 10 e 11 di Arduino (pin PWM)
 
 <img src="maxtoarduino.jpg">
+
+___
+
+### Arduino to Max
+
+<img src="arduinotomax.jpg">
