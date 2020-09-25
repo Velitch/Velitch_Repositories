@@ -26,7 +26,7 @@ Arduino account: [velitch](https://id.arduino.cc/Velitch)
 
 ## Breadbord
 
-<img src="https://solarbotics.com/wp-content/uploads/21020-dscn0140-2.jpg">
+<img src="https://solarbotics.com/wp-content/uploads/21020-dscn0140-2.jpg" height="200">
 
 La breadboard è una basetta con dei fori dove è possibile inserire dei fili elettrici rigidi (in vendita in tutti i negozi di elettronica). In questo modo è possibile evitare saldature tra i vari componenti che formeranno il nostro circuito. Una volta che il nostro circuito è stato testato con Arduino possiamo saldare e costruire un vero circuito con le basette millefori o qualsiasi altro supporto.
 
