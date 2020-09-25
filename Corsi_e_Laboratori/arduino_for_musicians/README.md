@@ -32,7 +32,7 @@ La breadboard è una basetta con dei fori dove è possibile inserire dei fili el
   <img height="300" src="https://solarbotics.com/wp-content/uploads/21020-dscn0140-2.jpg">
 </p>
 
-<img src="https://solarbotics.com/wp-content/uploads/21020-dscn0140-2.jpg" height="300" style="vertical-align:middle">
+<img src="https://solarbotics.com/wp-content/uploads/21020-dscn0140-2.jpg" height="300" align="center">
 
 I pin laterali (rossi e blu) sono collegati insieme per tutta la linea orizzontale. Questo vuol dire che inserendo un cavo con 5V (5 Volt) in qualsiasi punto della linea rossa avremo 5v in tutti gli altri punti della riga rossa. Questo serve per poter alimentare più componenti simultaneamente. Stessa cosa con la linea blu. Qui dobbiamo collegare il segnale di Arduino GND (con filo nero), in questo modo su tutta la linea blu abbiamo un segnale di massa. A cosa servono 5v e GND? Per semplificare possiamo dire che il segnale 5V invia una corrente nel circuito (che serve per alimentare i vari componenti) e il flusso di corrente termina nel pin GND. In questo modo abbiamo chiuso il circuito e la corrente è in grado di passare attraverso i vari componenti.
 
