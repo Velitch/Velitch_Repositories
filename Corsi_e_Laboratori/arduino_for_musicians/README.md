@@ -101,11 +101,11 @@ Da ora in poi per gestire le azioni sul Pin13 di Arduino utilizzeremo il nome le
 
 N.B: il nome ``ledpin`` è un nome inventato. Possiamo utilizzare qualsiasi nome ad esempio, ``ledcomandato``, ``ledarduino``, la cosa importante è il numero che gli assegniamo che deve corrispondere al pin utilizzato nel circuito.
 
-### // char
+### // ``char``
 
 La parola ``char`` identifica una variabile che contiene un carattere. ``tastiera`` è il nome che diamo a questa variabile ma può essere chiamata in qualsiasi altro modo
 
-### Void Setup()
+### ``Void Setup()``
 
 Con void setup dichiariamo se i pin che stiamo utilizzando su Arduino sono di Input o di Output (se dobbiamo leggere i dati provenienti da un sensore il pin deve essere di Input, se dobbiamo inviare segnali elettrici al di fuori della scheda allora il pin deve essere di Output). Tutto quello che scriviamo tra le due parentesi graffe fa parte della funzione setup. 
 
@@ -117,9 +117,9 @@ void setup() {
 }
 ```
 
-### Void Loop()
+### ``Void Loop()``
 
-A differenza della funzione setup(), la funzione ``loop()`` permette di ripetere all’infinito i comandi che scriveremo al suo interno. Questo vuol dire che le operazioni verranno ripetute in modo continuo (partendo dall’alto verso il basso) fino allo spegnimento della scheda.
+A differenza della funzione ``setup()``, la funzione ``loop()`` permette di ripetere all’infinito i comandi che scriveremo al suo interno. Questo vuol dire che le operazioni verranno ripetute in modo continuo (partendo dall’alto verso il basso) fino allo spegnimento della scheda.
 
 I principali comandi sono fondamentalmente due: digitalWite e analogRead. Con ``analogRead`` possiamo “leggere i valori analogici” provenienti da un sensore. Con ``digitalWrite`` possiamo scrivere e inviare un segnale, su un pin di Arduino. I segnali digitali possono essere solamente 0 e 1. Inviando uno “0” il nostro led si spegnerà, inviando “1” si accenderà. Il segnale digitale 0 viene interpretato da Arduino come 0V mentre il segnale digitale 1 diventa nel mondo reale 5V e quindi è in grado di accendere un Led.
 
