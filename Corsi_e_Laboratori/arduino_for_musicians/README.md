@@ -12,7 +12,8 @@ ___
 2. Arduino
 3. Breadbord
 4. Iniziamo!
-
+5. Arduino IDE
+6. Upload Sketch su Arduino
 ___
 
 ## Elettronica
@@ -78,8 +79,9 @@ ___
 2. Scarica il software [Arduino IDE](https://www.arduino.cc/en/Main/Software)
    - oppure usa il [web editor](https://create.arduino.cc/editor)
    
-   
-### Arduino IDE
+___
+
+## Arduino IDE
 
 ### Dichiarazione delle variabili e dei pin utilizzati
 
