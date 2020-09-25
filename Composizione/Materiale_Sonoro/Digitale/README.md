@@ -7,9 +7,21 @@ ___
 
 ## 01. INPUT
 
-**Sensori**
+**Segnale audio**
+
+- Strumento musicale
 
 - Microfono
+
+**Sensori**
+
+- Sensori vari
+
+**File**
+
+- Campioni
+
+- Dati testo
 
 **Orologio**
 
@@ -19,6 +31,15 @@ ___
 
 ## 02. SISTEMA
 
+- Sintesi additiva
+
+- RM
+
+- FM
+
+- Sintesi granulare
+
+- Filtri
 
 ___
 
