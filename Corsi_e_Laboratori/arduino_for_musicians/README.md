@@ -82,7 +82,7 @@ int ledpin = 13; // esempio dichiarazione pin
 int ledpin_1 = 4;
 int ledpin_2 = 7;
 int ledpin_3 = 12;
-char tastiera=0
+char tastiera=0; // carattere tastiera
 
 void setup() {
   // put your setup code here, to run once:
@@ -104,7 +104,8 @@ ledpin_1, ledpin_2 e ledpin_3 sono tre nomi qualsiasi che associamo rispettivame
 N.B: il nome ledpin è un nome inventato. Possiamo utilizzare qualsiasi nome ad esempio, ledcomandato, ledarduino, etc… la cosa importante è il numero che gli assegniamo che deve corrispondere al pin utilizzato nel circuito.
 
 // char
-La parola “char” identifica una variabile che contiene un carattere. tastiera è il nome che diamo a questa variabile ma può essere chiamata in qualsiasi altro modo
+
+La parola “char” identifica una variabile che contiene un carattere. "tastiera" è il nome che diamo a questa variabile ma può essere chiamata in qualsiasi altro modo
 
 ### Void Setup()
 
@@ -140,10 +141,6 @@ Con digitalWrite(ledpin, LOW); e delay(1000); – il Led riceverà un segnale di
 
 ### Upload Sketch su Arduino
 
-
-
-In caso di errore il programma ci segnala la riga dove è possibile che sia stato scritto un comando sbagliato. Fate molta attenzione alla sintassi di programmazione, ovvero punteggiatura, lettere minuscole o maiuscole, parentesi graffe, etc…
-
 - Per testare se lo sketch è stato scritto correttamente clicchiamo sull’icona in alto a forma di “V”. Se tutto è andato bene, sotto apparirà la scritta *Done Compling*.
  
 - Salva lo sketch
@@ -158,7 +155,7 @@ In caso di errore il programma ci segnala la riga dove è possibile che sia stat
 
 - Per fare l'upload clicca sull’icona con la freccia verso destra. Se tutto è andato bene apparirà in basso la scritta *Done Uploding*.
 
-
+In caso di errore il programma ci segnala la riga dove è possibile che sia stato scritto un comando sbagliato. Fate molta attenzione alla sintassi di programmazione, ovvero punteggiatura, lettere minuscole o maiuscole, parentesi graffe, etc…
 
 
  
