@@ -21,7 +21,7 @@ ___
    ## 1.5. Upload Sketch su Arduino
 ___
 
-## Iniziamo!
+# 1. Iniziamo!
 
 1. Crea un account gratuito sul sito ufficiale di [Arduino](https://login.arduino.cc/login)
 2. Scarica il software [Arduino IDE](https://www.arduino.cc/en/Main/Software)
