@@ -94,7 +94,7 @@ void loop() {
 
 }
 ```
-// esempio dichiarazione pin
+### // esempio dichiarazione pin
 
 ledpin è il nome che stiamo dando al pin di Arduino. 13 è in numero del pin utilizzato. Int vuol dire che stiamo utlizzando un numero intero (senza virgole).
 Da ora in poi per gestire le azioni sul Pin13 di Arduino utilizzeremo il nome ledpin.
@@ -103,7 +103,7 @@ ledpin_1, ledpin_2 e ledpin_3 sono tre nomi qualsiasi che associamo rispettivame
 
 N.B: il nome ledpin è un nome inventato. Possiamo utilizzare qualsiasi nome ad esempio, ledcomandato, ledarduino, etc… la cosa importante è il numero che gli assegniamo che deve corrispondere al pin utilizzato nel circuito.
 
-// char
+### // char
 
 La parola “char” identifica una variabile che contiene un carattere. "tastiera" è il nome che diamo a questa variabile ma può essere chiamata in qualsiasi altro modo
 
