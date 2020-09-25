@@ -79,6 +79,10 @@ All’interno della breadboard invece i collegamenti sono costituiti da 5 pin ve
 
 ```
 int ledpin = 13; // esempio dichiarazione pin
+int ledpin_1 = 4;
+int ledpin_2 = 7;
+int ledpin_3 = 12;
+char tastiera=0
 
 void setup() {
   // put your setup code here, to run once:
@@ -90,10 +94,17 @@ void loop() {
 
 }
 ```
+// esempio dichiarazione pin
+
 ledpin è il nome che stiamo dando al pin di Arduino. 13 è in numero del pin utilizzato. Int vuol dire che stiamo utlizzando un numero intero (senza virgole).
 Da ora in poi per gestire le azioni sul Pin13 di Arduino utilizzeremo il nome ledpin.
 
+ledpin_1, ledpin_2 e ledpin_3 sono tre nomi qualsiasi che associamo rispettivamente ai pin digitali 4, 7 e 12 di Arduino.
+
 N.B: il nome ledpin è un nome inventato. Possiamo utilizzare qualsiasi nome ad esempio, ledcomandato, ledarduino, etc… la cosa importante è il numero che gli assegniamo che deve corrispondere al pin utilizzato nel circuito.
+
+// char
+La parola “char” identifica una variabile che contiene un carattere. tastiera è il nome che diamo a questa variabile ma può essere chiamata in qualsiasi altro modo
 
 ### Void Setup()
 
