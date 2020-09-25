@@ -13,17 +13,17 @@ Arduino account: [velitch](https://id.arduino.cc/Velitch)
 
 ## Elettronica
 
-*Vcc*: con il termine Vcc si intende l’alimentazione positiva collegata di norma tramite il filo rosso.
+**Vcc**: con il termine Vcc si intende l’alimentazione positiva collegata di norma tramite il filo rosso.
 
-*Gnd o massa*: con i termini Gnd o massa si intende l’alimentazione a 0 volt (cioè di riferimento rispetto a vcc ) e si collega di norma tramite filo nero.
+**Gnd o massa**: con i termini Gnd o massa si intende l’alimentazione a 0 volt (cioè di riferimento rispetto a vcc ) e si collega di norma tramite filo nero.
 
-*Segnale digitale*: segnale elettrico che può transitare solo tra 2 valori 0 e 1.
+**Segnale digitale**: segnale elettrico che può transitare solo tra 2 valori 0 e 1.
 
-*Segnale analogico*: segnale elettrico che può transitare tra infiniti valori tra vcc e Gnd.
+**Segnale analogico**: segnale elettrico che può transitare tra infiniti valori tra vcc e Gnd.
 
-*Led*: un led ovvero Light Emitting Diode è un componente che se correttamente alimentato emette luce.
+**Led**: un led ovvero Light Emitting Diode è un componente che se correttamente alimentato emette luce.
 
-*Resistenza*: La resistenza elettrica è una grandezza fisica che misura la tendenza di un conduttore ad opporsi al passaggio di una corrente elettrica quando è sottoposto a una tensione. Esistono numerosi valori di resistenze, gli ohm (resistenza) di un resistore sono scritti sul medesimo tramite un codice a colori. Ma a cosa serve la resistenza? La resistenza serve a regolare la corrente che scorre nel circuito elettrico.
+**Resistenza**: La resistenza elettrica è una grandezza fisica che misura la tendenza di un conduttore ad opporsi al passaggio di una corrente elettrica quando è sottoposto a una tensione. Esistono numerosi valori di resistenze, gli ohm (resistenza) di un resistore sono scritti sul medesimo tramite un codice a colori. Ma a cosa serve la resistenza? La resistenza serve a regolare la corrente che scorre nel circuito elettrico.
 
 
 ## Arduino
@@ -40,18 +40,16 @@ I pin posizionati in basso a sinistra sono chiamati POWER perchè permettono di 
 
 <img src="http://www.marcopucci.it/wp-content/uploads/2013/07/tutorial_3_arduino_c.jpg">
 
-I pin analogici sono posizionati in basso a destra e sono composti da 6 ingressi: A0 – A5.
-I pin analogici sono solamente di ingresso dati (INPUT) e vengono utilizzati per leggere i dati provenienti da sensori. In questo modo Arduino è in grado di “leggere” quello che succede nel mondo reale e trasformarlo, grazie ai sensori, in numeri che poi andremo ad analizzare.
-La particolarità del dato analogico è che può comprendere una serie infinita di numeri, ad esempio un sensore di prossimità rilascia un numero che va da 0 a 900 a seconda di quanto un oggetto è vicino o lontano. Più avanti, utilizzando dei sensori analogici, spiegherò meglio questo concetto di flusso infinito di numeri.
+I pin analogici sono posizionati in basso a destra e sono composti da 6 ingressi: A0 – A5. I pin analogici sono solamente di ingresso dati (INPUT) e vengono utilizzati per leggere i dati provenienti da sensori. In questo modo Arduino è in grado di “leggere” quello che succede nel mondo reale e trasformarlo, grazie ai sensori, in numeri che poi andremo ad analizzare. La particolarità del dato analogico è che può comprendere una serie infinita di numeri, ad esempio un sensore di prossimità rilascia un numero che va da 0 a 900 a seconda di quanto un oggetto è vicino o lontano. Più avanti, utilizzando dei sensori analogici, spiegherò meglio questo concetto di flusso infinito di numeri.
 
 ### Digital
 
 <img src="http://www.marcopucci.it/wp-content/uploads/2013/07/tutorial_3_arduino_d-300x59.jpg">
 
-I pin digitali sono 14 (0 – 13) e sono posti nella parte in alto della scheda.
-Questi pin al contrario di quelli analogici restituiscono un valore che è uguale
+I pin digitali sono 14 (0 – 13) e sono posti nella parte in alto della scheda. Questi pin al contrario di quelli analogici restituiscono un valore che è uguale
 a 1 o a 0. I pin digitali possono essere sia di lettura (INPUT) che di scrittura (OUTPUT). Questo vuol dire che se inseriamo un sensore digitale in un determinato pin possiamo vedere se questo è attivo o spento, oppure in uscita possiamo fare accendere una luce o spegnerla.
-N.B: alcuni pin digitali, il 3, 5, 6, 9 ,10 e 11 sono chiamati pin PWM. I pin PWM possono essere sia digitali che analogici e possono essere sia di input che di output. Per il momento non consideriamo questi pin, verranno approfonditi più avanti.
+
+**N.B**: alcuni pin digitali, il 3, 5, 6, 9 ,10 e 11 sono chiamati pin PWM. I pin PWM possono essere sia digitali che analogici e possono essere sia di input che di output. Per il momento non consideriamo questi pin, verranno approfonditi più avanti.
 
 ## Breadbord
 
@@ -96,16 +94,16 @@ void loop() {
 ```
 ### // esempio dichiarazione pin
 
-ledpin è il nome che stiamo dando al pin di Arduino. 13 è in numero del pin utilizzato. Int vuol dire che stiamo utlizzando un numero intero (senza virgole).
+``ledpin`` è il nome che stiamo dando al pin di Arduino. 13 è in numero del pin utilizzato. ``Int`` vuol dire che stiamo utlizzando un numero intero (senza virgole).
 Da ora in poi per gestire le azioni sul Pin13 di Arduino utilizzeremo il nome ledpin.
 
-ledpin_1, ledpin_2 e ledpin_3 sono tre nomi qualsiasi che associamo rispettivamente ai pin digitali 4, 7 e 12 di Arduino.
+``ledpin_1``, ``ledpin_2`` e ``ledpin_3`` sono tre nomi qualsiasi che associamo rispettivamente ai pin digitali 4, 7 e 12 di Arduino.
 
-N.B: il nome ledpin è un nome inventato. Possiamo utilizzare qualsiasi nome ad esempio, ledcomandato, ledarduino, etc… la cosa importante è il numero che gli assegniamo che deve corrispondere al pin utilizzato nel circuito.
+N.B: il nome ``ledpin`` è un nome inventato. Possiamo utilizzare qualsiasi nome ad esempio, ``ledcomandato``, ``ledarduino``, la cosa importante è il numero che gli assegniamo che deve corrispondere al pin utilizzato nel circuito.
 
 ### // char
 
-La parola “char” identifica una variabile che contiene un carattere. "tastiera" è il nome che diamo a questa variabile ma può essere chiamata in qualsiasi altro modo
+La parola ``char`` identifica una variabile che contiene un carattere. ``tastiera`` è il nome che diamo a questa variabile ma può essere chiamata in qualsiasi altro modo
 
 ### Void Setup()
 
@@ -121,9 +119,9 @@ void setup() {
 
 ### Void Loop()
 
-A differenza della funzione setup(), la funzione loop() permette di ripetere all’infinito i comandi che scriveremo al suo interno. Questo vuol dire che le operazioni verranno ripetute in modo continuo (partendo dall’alto verso il basso) fino allo spegnimento della scheda.
+A differenza della funzione setup(), la funzione ``loop()`` permette di ripetere all’infinito i comandi che scriveremo al suo interno. Questo vuol dire che le operazioni verranno ripetute in modo continuo (partendo dall’alto verso il basso) fino allo spegnimento della scheda.
 
-I principali comandi sono fondamentalmente due: digitalWite e analogRead. Con analogRead possiamo “leggere i valori analogici” provenienti da un sensore. Con digitalWrite possiamo scrivere e inviare un segnale, su un pin di Arduino. I segnali digitali possono essere solamente 0 e 1. Inviando uno “0” il nostro led si spegnerà, inviando “1” si accenderà. Il segnale digitale 0 viene interpretato da Arduino come 0V mentre il segnale digitale 1 diventa nel mondo reale 5V e quindi è in grado di accendere un Led.
+I principali comandi sono fondamentalmente due: digitalWite e analogRead. Con ``analogRead`` possiamo “leggere i valori analogici” provenienti da un sensore. Con ``digitalWrite`` possiamo scrivere e inviare un segnale, su un pin di Arduino. I segnali digitali possono essere solamente 0 e 1. Inviando uno “0” il nostro led si spegnerà, inviando “1” si accenderà. Il segnale digitale 0 viene interpretato da Arduino come 0V mentre il segnale digitale 1 diventa nel mondo reale 5V e quindi è in grado di accendere un Led.
 
 ```
 void loop()
@@ -134,10 +132,10 @@ digitalWrite(ledpin, 0);
 delay(1000);
 }
 ```
-La funzione loop() è la terza e ultima parte della programmazione di Arduino. Questa funzione viene letta dall’alto verso il basso e tutte le operazioni in essa presenti vengono ripetute all’infinito. In questo caso il primo comando che incontra è: digitalWrite(ledpin, 1); – il Led posizionato nel Pin13 riceverà un segnale “alto” ovvero di 5V che farà accendere il Led.
+La funzione ``loop()`` è la terza e ultima parte della programmazione di Arduino. Questa funzione viene letta dall’alto verso il basso e tutte le operazioni in essa presenti vengono ripetute all’infinito. In questo caso il primo comando che incontra è: ``digitalWrite(ledpin, 1);`` – il Led posizionato nel Pin13 riceverà un segnale “alto” ovvero di 5V che farà accendere il Led.
 
-Subito dopo riceverà un delay(1000); – che rappresenta una pausa di 1 secondo. Il Led rimane acceso per un secondo.
-Con digitalWrite(ledpin, LOW); e delay(1000); – il Led riceverà un segnale di 0V e quindi si spegnerà per un secondo. Subito dopo Arduino ricomincerà a leggerà i comandi dall’alto, dalla funzione loop(), e quindi accenderà il Led e lo spegnerà all’infinito.
+Subito dopo riceverà un ``delay(1000);`` – che rappresenta una pausa di 1 secondo. Il Led rimane acceso per un secondo.
+Con ``digitalWrite(ledpin, LOW);`` e ``delay(1000);`` – il Led riceverà un segnale di 0V e quindi si spegnerà per un secondo. Subito dopo Arduino ricomincerà a leggerà i comandi dall’alto, dalla funzione ``loop()``, e quindi accenderà il Led e lo spegnerà all’infinito.
 
 ### Upload Sketch su Arduino
 
