@@ -75,9 +75,11 @@ All’interno della breadboard invece i collegamenti sono costituiti da 5 pin ve
    
 ### Web Editor
 
+### Dichiarazione delle variabili e dei pin utilizzati
+
 ```json
 
-int ledpin = 13; 
+int ledpin = 13; // esempio dichiarazione pin
 
 void setup() {
   // put your setup code here, to run once:
@@ -89,10 +91,10 @@ void loop() {
 
 }
 ```
+ledpin è il nome che stiamo dando al pin di Arduino. 13 è in numero del pin utilizzato. Int vuol dire che stiamo utlizzando un numero intero (senza virgole).
+Da ora in poi per gestire le azioni sul Pin13 di Arduino utilizzeremo il nome ledpin.
 
-### Dichiarazione delle variabili e dei pin utilizzati
-
-
+N.B: il nome ledpin è un nome inventato. Possiamo utilizzare qualsiasi nome ad esempio, ledcomandato, ledarduino, etc… la cosa importante è il numero che gli assegniamo che deve corrispondere al pin utilizzato nel circuito.
 
 ### Void Setup()
 
