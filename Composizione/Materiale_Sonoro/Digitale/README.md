@@ -1,8 +1,6 @@
 # Materiale Sonoro Digitale
 
-|INPUT| |SISTEMA|   |OUTPUT
-|---|   |---|       |---|
-|   |   |   |       |   |
-|   |   |   |       |   |
-|   |   |   |       |   |
-|   |   |   |       |   |
+| INPUT       | SISTEMA     | OUTPUT        |
+|   :----:    |    :----:   |    :----:     |
+|      |      |    |
+|    |       |      |
