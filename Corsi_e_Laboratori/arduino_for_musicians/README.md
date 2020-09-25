@@ -9,11 +9,16 @@ ___
 ## Indice
 
 1. Iniziamo!
-1.1. Elettronica
-1.2. Arduino
-1.3. Breadbord
-1.4. Arduino IDE
-1.5. Upload Sketch su Arduino
+
+   1.1. Elettronica
+
+   1.2. Arduino
+
+   1.3. Breadbord
+
+   1.4. Arduino IDE
+
+   1.5. Upload Sketch su Arduino
 ___
 
 ## Iniziamo!
