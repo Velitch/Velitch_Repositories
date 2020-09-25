@@ -173,3 +173,24 @@ ___
 In caso di errore il programma ci segnala la riga dove è possibile che sia stato scritto un comando sbagliato. Fate molta attenzione alla sintassi di programmazione, ovvero punteggiatura, lettere minuscole o maiuscole, parentesi graffe, etc…
 
 ___
+
+## 2.Arduino & Max MSP
+
+MaxMsp e Arduino si scambiano dati tramite la porta USB.
+
+``arduino
+int ledPin = 9;   
+void setup()
+{
+ Serial.begin(9600);
+ pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+  int luminosita;
+  if (Serial.available()) {
+  luminosita = Serial.read();
+  analogWrite(ledPin, luminosita);
+  }
+}
+``
