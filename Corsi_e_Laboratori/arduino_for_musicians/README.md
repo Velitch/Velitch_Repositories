@@ -224,4 +224,4 @@ void loop() {
 
 ````
 
-<img src="hhttps://github.com/Velitch/Velitch_Repositories/blob/master/Corsi_e_Laboratori/arduino_for_musicians/Arduino_%26_MaxMSP/arduinotomax.jpg">
+<img src="https://github.com/Velitch/Velitch_Repositories/blob/master/Corsi_e_Laboratori/arduino_for_musicians/Arduino_%26_MaxMSP/arduinotomax.jpg">
