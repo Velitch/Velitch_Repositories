@@ -4,12 +4,16 @@
 
 Arduino account: [velitch](https://id.arduino.cc/Velitch)
 
+___
+
 ## Indice
 
 1. Elettronica
 2. Arduino
 3. Breadbord
 4. Iniziamo!
+
+___
 
 ## Elettronica
 
@@ -25,6 +29,7 @@ Arduino account: [velitch](https://id.arduino.cc/Velitch)
 
 **Resistenza**: La resistenza elettrica è una grandezza fisica che misura la tendenza di un conduttore ad opporsi al passaggio di una corrente elettrica quando è sottoposto a una tensione. Esistono numerosi valori di resistenze, gli ohm (resistenza) di un resistore sono scritti sul medesimo tramite un codice a colori. Ma a cosa serve la resistenza? La resistenza serve a regolare la corrente che scorre nel circuito elettrico.
 
+___
 
 ## Arduino
 
@@ -51,6 +56,8 @@ a 1 o a 0. I pin digitali possono essere sia di lettura (INPUT) che di scrittura
 
 **N.B**: alcuni pin digitali, il 3, 5, 6, 9 ,10 e 11 sono chiamati pin PWM. I pin PWM possono essere sia digitali che analogici e possono essere sia di input che di output. Per il momento non consideriamo questi pin, verranno approfonditi più avanti.
 
+___
+
 ## Breadbord
 
 La breadboard è una basetta con dei fori dove è possibile inserire dei fili elettrici rigidi (in vendita in tutti i negozi di elettronica). In questo modo è possibile evitare saldature tra i vari componenti che formeranno il nostro circuito. Una volta che il nostro circuito è stato testato con Arduino possiamo saldare e costruire un vero circuito con le basette millefori o qualsiasi altro supporto.
@@ -63,6 +70,7 @@ I pin laterali (rossi e blu) sono collegati insieme per tutta la linea orizzonta
 
 All’interno della breadboard invece i collegamenti sono costituiti da 5 pin verticali. Se inseriamo un segnale di 5V in uno qualsiasi dei 5 pin nei 4 rimanenti avremo un segnale di 5V. In mezzo alla breadboard c’è una linea di separazione. Le due metà della basetta non sono collegate, per far passare la corrente da una metà all’altra dobbiamo realizzare dei ponti. 
 
+___
 
 ## Iniziamo!
 
@@ -137,7 +145,9 @@ La funzione ``loop()`` è la terza e ultima parte della programmazione di Arduin
 Subito dopo riceverà un ``delay(1000);`` – che rappresenta una pausa di 1 secondo. Il Led rimane acceso per un secondo.
 Con ``digitalWrite(ledpin, LOW);`` e ``delay(1000);`` – il Led riceverà un segnale di 0V e quindi si spegnerà per un secondo. Subito dopo Arduino ricomincerà a leggerà i comandi dall’alto, dalla funzione ``loop()``, e quindi accenderà il Led e lo spegnerà all’infinito.
 
-### Upload Sketch su Arduino
+___
+
+## Upload Sketch su Arduino
 
 - Per testare se lo sketch è stato scritto correttamente clicchiamo sull’icona in alto a forma di “V”. Se tutto è andato bene, sotto apparirà la scritta *Done Compling*.
  
@@ -155,5 +165,4 @@ Con ``digitalWrite(ledpin, LOW);`` e ``delay(1000);`` – il Led riceverà un se
 
 In caso di errore il programma ci segnala la riga dove è possibile che sia stato scritto un comando sbagliato. Fate molta attenzione alla sintassi di programmazione, ovvero punteggiatura, lettere minuscole o maiuscole, parentesi graffe, etc…
 
-
- 
+___
