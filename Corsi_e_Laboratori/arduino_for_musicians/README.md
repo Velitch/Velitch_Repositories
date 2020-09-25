@@ -4,12 +4,6 @@
 
 Arduino account: [velitch](https://id.arduino.cc/Velitch)
 
-## Iniziamo!
-
-1. Crea un account gratuito sul sito ufficiale di [Arduino](https://login.arduino.cc/login)
-2. Scarica il software [Arduino IDE](https://www.arduino.cc/en/Main/Software)
-   - oppure usa il [web editor](https://create.arduino.cc/editor)
-
 ## Elettronica
 
 *Vcc*: con il termine Vcc si intende l’alimentazione positiva collegata di norma tramite il filo rosso.
@@ -62,3 +56,9 @@ I pin digitali sono 14 (0 – 13) e sono posti nella parte in alto della scheda.
 Questi pin al contrario di quelli analogici restituiscono un valore che è uguale
 a 1 o a 0. I pin digitali possono essere sia di lettura (INPUT) che di scrittura (OUTPUT). Questo vuol dire che se inseriamo un sensore digitale in un determinato pin possiamo vedere se questo è attivo o spento, oppure in uscita possiamo fare accendere una luce o spegnerla.
 N.B: alcuni pin digitali, il 3, 5, 6, 9 ,10 e 11 sono chiamati pin PWM. I pin PWM possono essere sia digitali che analogici e possono essere sia di input che di output. Per il momento non consideriamo questi pin, verranno approfonditi più avanti.
+
+## Iniziamo!
+
+1. Crea un account gratuito sul sito ufficiale di [Arduino](https://login.arduino.cc/login)
+2. Scarica il software [Arduino IDE](https://www.arduino.cc/en/Main/Software)
+   - oppure usa il [web editor](https://create.arduino.cc/editor)
