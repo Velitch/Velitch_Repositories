@@ -77,8 +77,7 @@ All’interno della breadboard invece i collegamenti sono costituiti da 5 pin ve
 
 ### Dichiarazione delle variabili e dei pin utilizzati
 
-```json
-
+```
 int ledpin = 13; // esempio dichiarazione pin
 
 void setup() {
@@ -100,7 +99,7 @@ N.B: il nome ledpin è un nome inventato. Possiamo utilizzare qualsiasi nome ad 
 
 Con void setup dichiariamo se i pin che stiamo utilizzando su Arduino sono di Input o di Output (se dobbiamo leggere i dati provenienti da un sensore il pin deve essere di Input, se dobbiamo inviare segnali elettrici al di fuori della scheda allora il pin deve essere di Output). Tutto quello che scriviamo tra le due parentesi graffe fa parte della funzione setup. 
 
-```json
+```
 void setup() {
 
   pinMode(ledpin,OUTPUT);
@@ -114,7 +113,7 @@ A differenza della funzione setup(), la funzione loop() permette di ripetere all
 
 I principali comandi sono fondamentalmente due: digitalWite e analogRead. Con analogRead possiamo “leggere i valori analogici” provenienti da un sensore. Con digitalWrite possiamo scrivere e inviare un segnale, su un pin di Arduino. I segnali digitali possono essere solamente 0 e 1. Inviando uno “0” il nostro led si spegnerà, inviando “1” si accenderà. Il segnale digitale 0 viene interpretato da Arduino come 0V mentre il segnale digitale 1 diventa nel mondo reale 5V e quindi è in grado di accendere un Led.
 
-```json
+```
 void loop()
 {
 digitalWrite(ledpin, 1);
@@ -123,3 +122,32 @@ digitalWrite(ledpin, 0);
 delay(1000);
 }
 ```
+La funzione loop() è la terza e ultima parte della programmazione di Arduino. Questa funzione viene letta dall’alto verso il basso e tutte le operazioni in essa presenti vengono ripetute all’infinito. In questo caso il primo comando che incontra è: digitalWrite(ledpin, 1); – il Led posizionato nel Pin13 riceverà un segnale “alto” ovvero di 5V che farà accendere il Led.
+
+Subito dopo riceverà un delay(1000); – che rappresenta una pausa di 1 secondo. Il Led rimane acceso per un secondo.
+Con digitalWrite(ledpin, LOW); e delay(1000); – il Led riceverà un segnale di 0V e quindi si spegnerà per un secondo. Subito dopo Arduino ricomincerà a leggerà i comandi dall’alto, dalla funzione loop(), e quindi accenderà il Led e lo spegnerà all’infinito.
+
+### Upload Sketch su Arduino
+
+
+
+In caso di errore il programma ci segnala la riga dove è possibile che sia stato scritto un comando sbagliato. Fate molta attenzione alla sintassi di programmazione, ovvero punteggiatura, lettere minuscole o maiuscole, parentesi graffe, etc…
+
+- Per testare se lo sketch è stato scritto correttamente clicchiamo sull’icona in alto a forma di “V”. Se tutto è andato bene, sotto apparirà la scritta *Done Compling*.
+ 
+- Salva lo sketch
+ 
+- Collega Arduino con il cavetto USB al computer
+
+  - Click su Tools e poi su Board, seleziona la scheda utilizzata
+
+  - Sempre su Tools seleziona Serial Port e clicca sulla porta USB è collegato Arduino
+
+*(Queste due operazioni, se utilizziamo sempre la stessa scheda e la colleghiamo alla stessa porta USB, non devono essere effettuarle in futuro).
+
+- Per fare l'upload clicca sull’icona con la freccia verso destra. Se tutto è andato bene apparirà in basso la scritta *Done Uploding*.
+
+
+
+
+ 
