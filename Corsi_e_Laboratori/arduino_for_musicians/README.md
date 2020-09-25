@@ -76,6 +76,9 @@ All’interno della breadboard invece i collegamenti sono costituiti da 5 pin ve
 ### Web Editor
 
 ```json
+
+int ledpin = 13; 
+
 void setup() {
   // put your setup code here, to run once:
 
@@ -87,14 +90,25 @@ void loop() {
 }
 ```
 
-### Void Setup
+### Dichiarazione delle variabili e dei pin utilizzati
+
+
+
+### Void Setup()
 
 Con void setup dichiariamo se i pin che stiamo utilizzando su Arduino sono di Input o di Output (se dobbiamo leggere i dati provenienti da un sensore il pin deve essere di Input, se dobbiamo inviare segnali elettrici al di fuori della scheda allora il pin deve essere di Output). Tutto quello che scriviamo tra le due parentesi graffe fa parte della funzione setup. 
 
-### Void Loop
+```json
+void setup() {
+
+  pinMode(ledpin,OUTPUT);
+
+}
+```
+
+### Void Loop()
 
 A differenza della funzione setup(), la funzione loop() permette di ripetere all’infinito i comandi che scriveremo al suo interno. Questo vuol dire che le operazioni verranno ripetute in modo continuo (partendo dall’alto verso il basso) fino allo spegnimento della scheda.
 
 Quali sono i comandi che possiamo scrivere nella funzione loop()?
-I principali comandi sono fondamentalmente due: digitalWite e analogRead (più avanti vedremo anche i controlli, i cicli e altri comandi importanti, ma per il momento studieremo solamente questi due). Con analogRead possiamo “leggere i valori analogici” provenienti da un sensore (prossimi tutorial). Con digitalWrite possiamo scrivere e inviare un segnale, su un pin di Arduino. I segnali digitali possono essere solamente 0 e 1. Inviando uno “0” il nostro led si spegnerà, inviando “1” si accenderà.
-Il segnale digitale 0 viene interpretato da Arduino come 0V mentre il segnale digitale 1 diventa nel mondo reale 5V e quindi è in grado di accendere un Led.
+I principali comandi sono fondamentalmente due: digitalWite e analogRead (più avanti vedremo anche i controlli, i cicli e altri comandi importanti, ma per il momento studieremo solamente questi due). Con analogRead possiamo “leggere i valori analogici” provenienti da un sensore (prossimi tutorial). Con digitalWrite possiamo scrivere e inviare un segnale, su un pin di Arduino. I segnali digitali possono essere solamente 0 e 1. Inviando uno “0” il nostro led si spegnerà, inviando “1” si accenderà. Il segnale digitale 0 viene interpretato da Arduino come 0V mentre il segnale digitale 1 diventa nel mondo reale 5V e quindi è in grado di accendere un Led.
