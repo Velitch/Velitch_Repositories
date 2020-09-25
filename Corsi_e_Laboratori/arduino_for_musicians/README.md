@@ -18,7 +18,7 @@ ___
 
    ## 1.4. Arduino IDE
 
-   ## 1.5. Upload Sketch su Arduino
+   ## 1.5 Upload Sketch su Arduino
 ___
 
 # 1. Iniziamo!
@@ -154,7 +154,7 @@ Con ``digitalWrite(ledpin, LOW);`` e ``delay(1000);`` – il Led riceverà un se
 
 ___
 
-## 1.5. Upload Sketch su Arduino
+## 1.5 Upload Sketch su Arduino
 
 - Per testare se lo sketch è stato scritto correttamente clicchiamo sull’icona in alto a forma di “V”. Se tutto è andato bene, sotto apparirà la scritta *Done Compling*.
  
