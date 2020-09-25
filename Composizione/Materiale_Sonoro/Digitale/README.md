@@ -1,1 +1,7 @@
-# Velitch_Composizione
+# Materiale Sonoro Digitale
+
+|INPUT|
+
+|SISTEMA|
+
+|OUTPUT|
