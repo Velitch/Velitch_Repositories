@@ -178,7 +178,7 @@ ___
 
 MaxMsp e Arduino si scambiano dati tramite la porta USB.
 
-``
+````
 int ledPin = 9;   
 void setup()
 {
@@ -193,4 +193,4 @@ void loop() {
   analogWrite(ledPin, luminosita);
   }
 }
-``
+````
