@@ -1,6 +1,7 @@
 # CORSO DI ARDUINO PER MUSICISTI
 
 [Arduino Project Hub](https://create.arduino.cc/projecthub)
+
 Arduino account: [velitch](https://id.arduino.cc/Velitch)
 
 ## Iniziamo!
