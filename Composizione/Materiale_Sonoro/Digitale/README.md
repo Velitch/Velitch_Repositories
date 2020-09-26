@@ -39,7 +39,9 @@ ___
 
 - Sintesi granulare
 
-- Filtri
+- Filtri:
+
+https://ccrma.stanford.edu/~jos/filters/
 
 ___
 
